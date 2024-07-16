@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent {
+  isPanelVisible: boolean = false;
+  isUserDataVisible: boolean = false;
 
+  togglePanel() {
+    this.isPanelVisible = !this.isPanelVisible;
+  }
+
+  toggleUserData(isVisible: boolean) {
+    this.isUserDataVisible = isVisible;
+    console.log('User data visibility in footer:', this.isUserDataVisible);
+  }
 }

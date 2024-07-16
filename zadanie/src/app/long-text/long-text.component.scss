@@ -1,0 +1,25 @@
+@import "../scss/variables.scss";
+
+.long-text-block {
+    margin-top: 1.5rem;
+    background-color: $main-background;
+    color: $main-headings;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.heading {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+}
+
+.long-text {
+    color: $long-text;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

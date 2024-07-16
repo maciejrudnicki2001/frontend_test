@@ -1,0 +1,43 @@
+@import "../scss/variables.scss";
+
+.buttons {
+    margin-top: 1.5rem;
+    background-color: $main-background;
+    color: $main-headings;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.heading {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.button-container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center; 
+}
+
+button {
+    width: 30%; 
+    background: transparent;
+    border: 0.1rem solid #e3e4e5;
+    border-radius: 5%;
+    color: #e3e4e5;
+    padding: 1rem;
+    cursor: pointer;
+    margin: 0 1rem; 
+}
+
+button:hover {
+    background: linear-gradient(90deg, #c87411, #fd9d24); 
+    color: $main-headings;
+}
+
+
+
+

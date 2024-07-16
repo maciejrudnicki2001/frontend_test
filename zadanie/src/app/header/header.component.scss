@@ -1,0 +1,43 @@
+@import "../scss/variables.scss";
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: $header-background;
+    color: $header-text;
+
+
+  
+    .logo svg {
+      margin-left: 1rem;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #303030;
+      padding: 0.5rem;
+    }
+
+    .logo svg .hoverable {
+        fill: #303030;
+        transition: fill 0.3s ease;
+    }
+    
+    .logo svg:hover {
+        background-color: $logo-hover;
+      }
+    
+      .logo svg:hover .hoverable {
+        fill: $logo-hover;
+      }
+  
+    h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+  }
+
+  .user-data {
+    display: none; 
+  }
+  
